@@ -45,5 +45,28 @@ describe Line do
       expect(line1).to eq(line2)
     end
 
+    describe "Equality should never throw an exception" do
+
+      it "should be of same type" do
+        line1 = Line.new(Coordinate.new(1, 1), Coordinate.new(2, 4))
+        line2 = Line.new(Coordinate.new(1, 1), Coordinate.new(2, 4))
+        expect(line1.class).to eq(line2.class)
+      end
+
+      it "should not be null" do
+        line1 = Line.new(Coordinate.new(1, 1), Coordinate.new(2, 4))
+        line2 = Line.new(Coordinate.new(1, 1), Coordinate.new(2, 4))
+        expect(line1.class).to_not eq(NilClass)
+        expect(line2.class).to_not eq(NilClass)
+      end
+
+      it "should have same object id" do
+        line1 = Line.new(Coordinate.new(1, 1), Coordinate.new(2, 4))
+
+        expect(line1.object_id).to eq(line1.object_id)
+      end
+
+    end
+
   end
 end
