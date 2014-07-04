@@ -45,12 +45,18 @@ describe Coordinate do
       it "should not have same object id" do
         coordinate = Coordinate.new(1,2)
         array=Array.new(2)
-        expect(coordinate.object_id).to_not eq(array.object_id)
+
+          coordinate1 = Coordinate.new(1,2)
+          coordinate2 = Coordinate.new(1,2)
+          hash= {
+              coordinate1=>'1',
+          }
+
+        expect(hash[coordinate2]).to eq('1')
+
       end
     end
-
   end
-
 end
 
 

@@ -10,7 +10,13 @@ class Coordinate
     @y = y
   end
 
+  def hash
+    37 * [@x, @y].hash
+  end
 
+  def eql? other
+    self ==other
+  end
 
   def == coordinate2
     [@x,@y] == [coordinate2.x,coordinate2.y]

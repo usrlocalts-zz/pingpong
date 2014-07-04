@@ -78,8 +78,8 @@ describe Line do
         expect(line.object_id).to_not eq(array.object_id)
       end
 
-    end
 
+    end
   end
 end
 

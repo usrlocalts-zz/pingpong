@@ -14,4 +14,6 @@ class Line
   def == line2
     coordinates == line2.coordinates || [ @coordinate2, @coordinate1 ] == line2.coordinates
   end
+
+
 end
