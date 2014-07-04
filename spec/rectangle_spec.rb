@@ -9,12 +9,20 @@ describe Rectangle do
       expect(rectangle.perimeter).to eq(4)
     end
 
-    context "Rectangle with same coordinates" do
-      it "returns perimeter 0 when coordinates are  (1,1),(1,1)" do
+    context "Rectangle with overlapping lines" do
+      it "returns perimeter 0 when coordinates are same viz  (1,1),(1,1)" do
         rectangle = Rectangle.new(Coordinate.new(1, 1), (Coordinate.new(1, 1)))
         expect(rectangle.perimeter).to eq(0)
       end
     end
+
+    context "has an area" do
+      it " should be an area 4 when coordinates are (1,1)(3,3) " do
+        rectangle = Rectangle.new(Coordinate.new(1, 1), (Coordinate.new(3, 3)))
+        expect(rectangle.perimeter).to eq(8)
+      end
+    end
+
   end
 end
 
