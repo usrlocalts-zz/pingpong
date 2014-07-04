@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2e78764-a2da-44f9-9fd3-3a63ba63a466" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Ping_Pong.iml" afterPath="$PROJECT_DIR$/.idea/Ping_Pong.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/line.rb" afterPath="$PROJECT_DIR$/lib/line.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/line_spec.rb" afterPath="$PROJECT_DIR$/spec/line_spec.rb" />
     </list>
     <ignored path="Ping_Pong.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,8 +15,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Ping_Pong@Run_spec__coordinate_spec___Ping_Pong.coverage" NAME="Run spec 'coordinate_spec': Ping_Pong Coverage Results" MODIFIED="1404454568834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ping_Pong" />
-    <SUITE FILE_PATH="coverage/Ping_Pong@Run_spec__line_spec___Ping_Pong.coverage" NAME="Run spec 'line_spec': Ping_Pong Coverage Results" MODIFIED="1404453362867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ping_Pong" />
+    <SUITE FILE_PATH="coverage/Ping_Pong@Run_spec__coordinate_spec___Ping_Pong.coverage" NAME="Run spec 'coordinate_spec': Ping_Pong Coverage Results" MODIFIED="1404455223927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ping_Pong" />
+    <SUITE FILE_PATH="coverage/Ping_Pong@Run_spec__line_spec___Ping_Pong.coverage" NAME="Run spec 'line_spec': Ping_Pong Coverage Results" MODIFIED="1404455233241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ping_Pong" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -32,20 +32,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="line.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="line.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/line.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
-                  <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+                <state vertical-scroll-proportion="0.38709676" vertical-offset="0" max-vertical-offset="620">
+                  <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="coordinate.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="coordinate.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/coordinate.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.38709676" vertical-offset="0" max-vertical-offset="620">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
                   <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
                   <folding />
                 </state>
@@ -56,20 +56,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="line_spec.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="line_spec.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/spec/line_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="810">
-                  <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+                <state vertical-scroll-proportion="0.87903225" vertical-offset="130" max-vertical-offset="810">
+                  <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="coordinate_spec.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="coordinate_spec.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/coordinate_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33175355" vertical-offset="0" max-vertical-offset="633">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
                   <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
                   <folding />
                 </state>
@@ -91,10 +91,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/line_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/line.rb" />
         <option value="$PROJECT_DIR$/spec/coordinate_spec.rb" />
         <option value="$PROJECT_DIR$/lib/coordinate.rb" />
+        <option value="$PROJECT_DIR$/spec/line_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/line.rb" />
       </list>
     </option>
   </component>
@@ -195,7 +195,7 @@
       <recent name="$PROJECT_DIR$/spec" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'coordinate_spec': Ping_Pong">
+  <component name="RunManager" selected="RSpec.Run spec 'line_spec': Ping_Pong">
     <configuration default="false" name="Run spec 'line_spec': Ping_Pong" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="Ping_Pong" />
@@ -357,8 +357,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'coordinate_spec': Ping_Pong" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'line_spec': Ping_Pong" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'line_spec': Ping_Pong" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'coordinate_spec': Ping_Pong" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +387,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22780374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22780374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -457,25 +457,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/line.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/line_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="810">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/coordinate_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33175355" vertical-offset="0" max-vertical-offset="633">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
@@ -483,8 +467,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/coordinate.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38709676" vertical-offset="0" max-vertical-offset="620">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/line_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87903225" vertical-offset="130" max-vertical-offset="810">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/line.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38709676" vertical-offset="0" max-vertical-offset="620">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding />
         </state>
       </provider>
