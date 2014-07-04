@@ -53,6 +53,12 @@ describe Line do
         expect(line1.class).to eq(line2.class)
       end
 
+      it "should not be equal for different type" do
+        line = Line.new(Coordinate.new(1, 1), Coordinate.new(2, 4))
+        array = Array.new(1)
+        expect(line.class).to_not eq(array.class)
+      end
+
       it "should not be null" do
         line1 = Line.new(Coordinate.new(1, 1), Coordinate.new(2, 4))
         line2 = Line.new(Coordinate.new(1, 1), Coordinate.new(2, 4))
@@ -61,12 +67,19 @@ describe Line do
       end
 
       it "should have same object id" do
-        line1 = Line.new(Coordinate.new(1, 1), Coordinate.new(2, 4))
+        line = Line.new(Coordinate.new(1, 1), Coordinate.new(2, 4))
 
-        expect(line1.object_id).to eq(line1.object_id)
+        expect(line.object_id).to eq(line.object_id)
+      end
+
+      it "should not have same object id" do
+        line = Line.new(Coordinate.new(1, 1), Coordinate.new(2, 4))
+        array = Array.new(1)
+        expect(line.object_id).to_not eq(array.object_id)
       end
 
     end
 
   end
 end
+

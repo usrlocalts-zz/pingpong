@@ -17,10 +17,16 @@ describe Coordinate do
 
     describe "Equality should never throw an exception" do
 
-      it "should be of same type" do
+      it "should be equal for same types" do
         coordinate1 = Coordinate.new(1,2)
         coordinate2 = Coordinate.new(1,2)
         expect(coordinate1.class).to eq(coordinate2.class)
+      end
+
+      it "should not be equal for different type" do
+        coordinate = Coordinate.new(1,2)
+        array = Array.new(1)
+        expect(coordinate.class).to_not eq(array.class)
       end
 
       it "should not be null" do
@@ -36,8 +42,15 @@ describe Coordinate do
         expect(coordinate1.object_id).to eq(coordinate1.object_id)
       end
 
+      it "should not have same object id" do
+        coordinate = Coordinate.new(1,2)
+        array=Array.new(2)
+        expect(coordinate.object_id).to_not eq(array.object_id)
+      end
     end
 
   end
 
 end
+
+
