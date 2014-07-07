@@ -24,5 +24,14 @@ describe Rectangle do
     end
 
   end
-end
+
+    context 'should return squares area' do
+      it "should return area as 25 with coordinates (1,1) and side 5" do
+        new_square = Rectangle.square(Coordinate.new(1, 1), 5)
+        expect(new_square.area).to eq(25)
+      end
+    end
+  end
+
+
 

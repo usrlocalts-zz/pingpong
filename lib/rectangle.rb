@@ -1,4 +1,4 @@
-# models a rectangle to return its perimeter
+# models a rectangle to return its perimeter, area
 class Rectangle
   def initialize (coordinate1, coordinate2)
     @coordinate1 = coordinate1
@@ -21,4 +21,10 @@ class Rectangle
     lines = collaborating_lines
     lines[0].length*lines[1].length
   end
+
+  def self.square left_top_coordinate,side_length
+    right_bottom_coordinate = Coordinate.new(left_top_coordinate.x + side_length , left_top_coordinate.y + side_length)
+    Rectangle.new(left_top_coordinate,right_bottom_coordinate)
+  end
+
 end
